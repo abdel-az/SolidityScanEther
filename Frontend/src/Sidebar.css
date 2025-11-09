@@ -1,0 +1,40 @@
+.sidebar {
+  width: 250px;
+  background-color: #111827; /* Dark Navy / Slate */
+  color: #ffffff;
+  height: 100vh;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-right: 1px solid #1f2937; /* subtle border */
+}
+
+.sidebar h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.menu-item {
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease;
+  border: 1px solid transparent;
+}
+
+.menu-item:hover {
+  background-color: #1f2937; /* hover background */
+  border-color: #374151;
+}
+
+.menu-item.active {
+  background-color: #2563eb; /* blue accent for active page */
+  border-color: #2563eb;
+  color: #ffffff;
+  font-weight: 500;
+}
